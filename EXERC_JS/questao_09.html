@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 09</title>
+</head>
+<body>
+    <h2>Passe o mouse sobre a imagem!</h2>
+
+    <img id="minhaImagem"
+    src="james web jupiter.jpg"
+    width="150"
+    height="150"
+    onmouseover="aumentar()"
+    onmouseout="diminuir()"
+    style="cursor: pointer; transition: 0.4s;">
+
+        <script>
+            function aumentar() {
+                var img = document.getElementById("minhaImagem");
+                img.style.width = "280px";
+                img.style.height = "280px";
+            }
+            function diminuir() {
+                var img = document.getElementById("minhaImagem");
+                img.style.width = "150px";
+                img.style.height = "150px";
+            }
+
+
+        </script>
+    
+
+
+
+</body>
+</html>

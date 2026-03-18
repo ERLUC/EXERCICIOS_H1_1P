@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 08</title>
+</head>
+<body>
+    <h1>SAUDAÇÃO</h1>
+
+    <input type="text" id="nome" placeholder="Digite seu nome: ">
+    <input type="text" id="turno" placeholder="Digite seu turno: ">
+    <input type="button" value="Gerar Saudação" onclick="mostrar()">
+
+    <div id="frase"></div>
+    <script>
+        function mostrar() {
+            var nome = document.getElementById("nome").value;
+            var turno = document.getElementById("turno").value;
+            document.getElementById("frase").innerHTML =
+            "<h2> Bem-vindo(a) "+nome+", você estuda no turno da "+turno+".</h2>";
+
+        }
+    </script>
+
+    
+    
+
+
+</body>
+</html>

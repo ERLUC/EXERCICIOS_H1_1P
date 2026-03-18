@@ -1,0 +1,49 @@
+QUESTÕES TEÓRICAS - EXERCÍCIOS JAVA SCRIPT
+
+QUESTÃO 1
+JavaScript é case sensitive? Justifique e exemplifique.
+    Sim. Diferencia caracteres minúsculos de maiúsculos.
+    Exemplo:
+        var nome
+        var Nome
+    São variáveis diferentes.
+
+QUESTÃO 2
+O que é e para que serve uma variável em JavaScript? 
+Crie 3 exemplos: texto, número inteiro e número decimal.
+    Variáveis guardam o valor desejado.
+    Exemplos:
+        var nome = "Seth"; // texto
+        var idade = 21; // inteiro
+        var peso = 80.57; // decimal
+
+QUESTÃO 3
+a. Explique o que faz o operador = em JavaScript.
+    Ele atribui a uma variável um valor.
+
+b. Explique o que é a concatenação e qual símbolo utiliza-se. Exemplifique com nome e idade.
+    Concatenar significa unir dois ou mais valores numa única frase.
+    Exemplo:
+        var nome = "Seth";
+        var idade = 21;
+        alert("Meu nome é " + nome + ", eu tenho " + idade + " anos.")
+    
+QUESTÃO 4
+Verifique o código e responda as perguntas.
+
+a. Qual operação matemática o código realiza e como identificou ?
+    Realize a multiplicação de dois números que podem ser decimais.
+    Operador * para multiplicação e parseFloat para decimais.
+
+b. O que acontece quando se clica no botão "Calcular" ? Descreva passo a passo.
+    O código vai multiplicar o valor armazenado na variável a pelo valor armazenado na variável b.
+    Vai armazenar o produto da multiplicação na variável resultado.
+    Vai exibir o resultado no próprio site utilizando o comando inner.HTML
+
+c. Para que serve o parseFloat() e o que aconteceria sem ele?
+    Possibilita operações com números decimais, sem ele não seria possível realizar a operação.
+    Usa-se parseInt() para os números inteiros.
+    Sem esse método, o JS identifica tudo como string.
+
+d. O resultado aparece na tela ou em um alert() ?
+    Aparece na tela, pois foi usado o comando inner.HTML.
